@@ -1,0 +1,25 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 0.64736855,
+      "metadata_title": null
+    },
+    {
+      "@search.score": 2.552341,
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform"
+    },
+    {
+      "@search.score": 1.5261848,
+      "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter"
+    },
+    {
+      "@search.score": 2.256732,
+      "metadata_title": "Mining aspects of customer’s review on the social network"
+    },
+    {
+      "@search.score": 0.69719523,
+      "metadata_title": "Mobile marketing recommendation method based on user location feedback"
+    }
+  ]
+}

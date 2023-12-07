@@ -1,0 +1,33 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 2.6840343,
+      "metadata_author": "Haoliang Cui",
+      "metadata_title": "A classification method for social information of sellers on social network",
+      "publication_name": "EURASIP Journal on Image and Video Processing",
+      "publication_date": "2021-01-14"
+    },
+    {
+      "@search.score": 2.9941902,
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+      "publication_name": "EURASIP Journal on Image and Video Processing",
+      "publication_date": "2018-11-27"
+    },
+    {
+      "@search.score": 1.6205689,
+      "metadata_author": "Rik Das",
+      "metadata_title": "Multi technique amalgamation for enhanced information identification with content based image data",
+      "publication_name": "SpringerPlus",
+      "publication_date": "2015-12-01"
+    },
+    {
+      "@search.score": 5.2875233,
+      "metadata_author": "Ferdousi Sabera Rawnaque ",
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+      "publication_name": "Brain Informatics",
+      "publication_date": "2020-09-21"
+    }
+  ]
+}

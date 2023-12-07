@@ -1,0 +1,90 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "metadata_author": "Administrator",
+      "metadata_title": "01-CVM0189.pdf"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Haoliang Cui",
+      "metadata_title": "A classification method for social information of sellers on social network"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Taiwo Kolajo ",
+      "metadata_title": "Big data stream analysis: a systematic literature review"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Iqbal H. Sarker ",
+      "metadata_title": "Context-aware rule learning from smartphone data: survey, challenges and future directions"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": " Shun Kodate ",
+      "metadata_title": "Detecting problematic transactions in a consumer-to-consumer e-commerce network"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Sandhya Narayanan ",
+      "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Zengda Guan",
+      "metadata_title": "Local regression transfer learning with applications to users’ psychological characteristics prediction"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Tu Nguyen Thi Ngoc ",
+      "metadata_title": "Mining aspects of customer’s review on the social network"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Chunyong Yin ",
+      "metadata_title": "Mobile marketing recommendation method based on user location feedback"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Rik Das",
+      "metadata_title": "Multi technique amalgamation for enhanced information identification with content based image data"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "P. Ram Mohan Rao ",
+      "metadata_title": "Privacy preservation techniques in big data analytics: a survey"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Tuba Parlar ",
+      "metadata_title": "QER: a new feature selection method for sentiment analysis"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Muhammad Taimoor Khan",
+      "metadata_title": "Sentiment analysis and the complex natural language"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Ferdousi Sabera Rawnaque ",
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Partheeban Chandrasekaran",
+      "metadata_title": "Toward a testbed for evaluating computational trust models: experiments and analysis"
+    }
+  ]
+}

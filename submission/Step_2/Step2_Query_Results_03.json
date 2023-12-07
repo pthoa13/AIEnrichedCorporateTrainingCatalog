@@ -1,0 +1,66 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@odata.count": 6,
+  "value": [
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "title": "Code security",
+      "url": "https://www.example.com/course9"
+    },
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "level": "beginner",
+      "product": "git",
+      "rating_average": 4.5,
+      "rating_count": 125,
+      "title": "Git Workflow ",
+      "url": "https://www.example.com/course3"
+    },
+    {
+      "@search.score": 1,
+      "duration": 2,
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7"
+    },
+    {
+      "@search.score": 1,
+      "duration": 24,
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 106,
+      "title": "Manage your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi"
+    },
+    {
+      "@search.score": 1,
+      "duration": 3,
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4"
+    },
+    {
+      "@search.score": 1,
+      "duration": 2,
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "title": "Maps",
+      "url": "https://www.example.com/course6"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@odata.count": 2,
+  "value": [
+    {
+      "@search.score": 1,
+      "Key": "ms-learn01731c10-20bb-41e7-ba21-8528669dcdc3",
+      "description": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "duration": 18,
+      "instructor": null,
+      "level": "advanced",
+      "product": "azure",
+      "rating_average": 4.75,
+      "rating_count": 137,
+      "role": "ai-engineer",
+      "source": "MS Learn",
+      "title": "Use containers for your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/use-containers-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "ms",
+        "learn"
+      ],
+      "entities": []
+    },
+    {
+      "@search.score": 1,
+      "Key": "company-moodle278d299e-ef0e-47fb-8e98-5a31a073519c",
+      "description": "For developers, learn our best practices for securely connecting to databases",
+      "duration": 2,
+      "instructor": "Eileen Diaz",
+      "level": "advanced",
+      "product": "SQL",
+      "rating_average": 4.8,
+      "rating_count": 115,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Security for database code",
+      "url": "https://www.example.com/course7",
+      "keyphrases": [
+        "company",
+        "moodle"
+      ],
+      "entities": [
+        {
+          "name": "Eileen Diaz",
+          "description": "Eileen is our Senior Security Engineer responsible for application and service security. She has been with the company for 9 years and enjoys writing Sci-Fi in her spare time.",
+          "matches": [
+            {
+              "text": "Eileen Diaz",
+              "offset": 0,
+              "length": 11,
+              "matchDistance": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

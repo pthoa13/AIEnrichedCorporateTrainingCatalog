@@ -1,0 +1,5 @@
+search=AI&$orderby=duration desc&$filter=rating_average gt 4.5 and level eq 'advanced'
+search=*&$count=true&$orderby=rating_average&$filter=level eq 'beginner'
+search=*&$count=true&$orderby=rating_count desc&$filter=role eq 'developer'&$select=duration,level,product,rating_average,rating_count,title,url
+search=SVM&$orderby=metadata_title&$select=metadata_title&$top=5
+search=*&$orderby=metadata_title&$select=metadata_title,metadata_author&$filter=not(metadata_title eq null)

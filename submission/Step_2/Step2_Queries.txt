@@ -1,0 +1,3 @@
+search=machine learning
+search=industry 4.0&$count=true&$top=3
+search=azure devops&$orderby=rating_average desc

@@ -1,0 +1,5 @@
+search=software&$orderby=publication_date desc&$select=metadata_title,publication_name,doi,publisher,publication_date&$filter=publication_date gt '2020-01-01'
+search=video+classification&$orderby=metadata_title&$select=metadata_title,metadata_author,publication_name,publication_date&$filter=publication_date lt '2021-06-30'
+search=*&$filter=instructor eq 'Mike Montoya'&$orderby=rating_average desc
+search=*&$count=true&$orderby=rating_count desc&$filter=level eq 'advanced' and rating_average gt 4.5
+search=*&$count=true&$orderby=duration desc&$filter=product eq 'azure'&$select=duration,level,product,rating_average,rating_count,title,url,entities

@@ -1,0 +1,68 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DBF725F96981D3\"",
+  "name": "azureblob-skillset",
+  "description": "Skillset created from the portal. skillsetName: azureblob-skillset; contentField: content; enrichmentGranularity: document; knowledgeStoreStorageAccount: ;",
+  "skills": [
+    {
+      "@odata.type": "#Microsoft.Skills.Text.KeyPhraseExtractionSkill",
+      "name": "#1",
+      "description": null,
+      "context": "/document/content",
+      "defaultLanguageCode": "en",
+      "maxKeyPhraseCount": null,
+      "modelVersion": null,
+      "inputs": [
+        {
+          "name": "text",
+          "source": "/document/content"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keyPhrases",
+          "targetName": "keyphrases"
+        }
+      ]
+    },
+    {
+      "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
+      "name": "Springer Lookup",
+      "description": "Extracts paper metadata from Springer",
+      "context": "/document",
+      "uri": "https://springerlookup.azurewebsites.net/api/SpringerLookup?code=urWl6uAPaaBfrXBMB94m0e5a-tEwfCjkWmgaZ0l4c0RyAzFuUI1r7Q==",
+      "httpMethod": "POST",
+      "timeout": "PT30S",
+      "batchSize": 10,
+      "degreeOfParallelism": 1,
+      "inputs": [
+        {
+          "name": "articleName",
+          "source": "/document/metadata_title"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "publicationName",
+          "targetName": "publicationName"
+        },
+        {
+          "name": "publisher",
+          "targetName": "publisher"
+        },
+        {
+          "name": "doi",
+          "targetName": "doi"
+        },
+        {
+          "name": "publicationDate",
+          "targetName": "publicationDate"
+        }
+      ],
+      "httpHeaders": {}
+    }
+  ],
+  "cognitiveServices": null,
+  "knowledgeStore": null,
+  "encryptionKey": null
+}

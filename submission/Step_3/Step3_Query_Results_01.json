@@ -1,0 +1,37 @@
+{
+  "@odata.context": "https://ai-enriched-data.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1.1144185,
+      "metadata_title": "A classification method for social information of sellers on social network",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-020-00545-z",
+      "publication_name": "EURASIP Journal on Image and Video Processing",
+      "publication_date": "2021-01-14"
+    },
+    {
+      "@search.score": 0.735582,
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publication_name": "Business Research",
+      "publication_date": "2020-11-01"
+    },
+    {
+      "@search.score": 0.943184,
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+      "publisher": "Springer",
+      "doi": "10.1186/s40708-020-00109-x",
+      "publication_name": "Brain Informatics",
+      "publication_date": "2020-09-21"
+    },
+    {
+      "@search.score": 2.6301603,
+      "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-020-00292-y",
+      "publication_name": "Journal of Big Data",
+      "publication_date": "2020-02-28"
+    }
+  ]
+}
